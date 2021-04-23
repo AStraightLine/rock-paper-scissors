@@ -77,6 +77,7 @@ function playRound(playerSelection, computerSelection) {
                 break;
             }
     }
+    // Check if either player has reached a score of 5 and won the game. Reset if they have.
     firstToFive();
 }
 
