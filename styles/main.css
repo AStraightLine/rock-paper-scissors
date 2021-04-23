@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #45b5d9;
+    color: #f7fdff;
+    font-family: arial,sans-serif;
+}
+
+header {
+    margin-top: 20vh;
+    text-shadow: 0.3em 0.3em 0.3em #1b7e9e;
+}
+
+
+h1 {
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    width: 100vw;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 2.5vh;
+}
+
+main {
+    width: 100vw;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.playButtons {
+    width: 6vw;
+    font-size: 1vw;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #45b5d9;
+    filter: drop-shadow(0.4em 0.35em 0.35em #2087a8);
+    color: #f7fdff;
+    margin-left: 0.75vw;
+    margin-right: 0.75vw;
+    padding: 7.5px;
+}
+
+.playButtons:hover {
+    background-color: #1b7e9e;
+}
+
+#roundResultDisplay {
+    margin-top: 5.5vh;
+    font-size: 1.25vw;
+}
+
+#scoresDisplay {
+    margin-top: 3vh;
+    font-size: 1.25vw;
+}
+
